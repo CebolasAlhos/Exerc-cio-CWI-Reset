@@ -1,0 +1,9 @@
+nomeCompleto = "Danilo Oliveira da Cruz"
+apelido = "Cebolas Alhos"
+idade = 27
+altura = 180
+datadeNascimento = "04/08/1994"
+localdeNascimento = "Pelotas/Rs"
+trabalhando = True
+apresentacao = "Meu nome é " + nomeCompleto + " (sou conhecido[a] como " + apelido + ") e tenho " + idade + " anos. Nasci no dia " + datadeNascimento + ", na cidade de " + localdeNascimento + ". Tenho " + altura + "m de altura e atualmente estou " + (trabalhando ? "empregado" : "desempregado") + "."
+console.log(apresentacao)
