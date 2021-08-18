@@ -1,0 +1,38 @@
+exercicio  1 
+mesmoNome = nomeDoFulano == nomeDoBeltrano
+
+exercicio 2
+idade = 19
+maiorDeIdade = (idade >= 18)
+ou
+idade  = 17
+maiorDeIdade = (idade >= 18)
+
+exercicio 3
+valorDoBoleto = 1000
+valorComJuros = (valorDoBoleto * 1.1)
+
+exercicio 4
+item1 = 10
+item2 = 20
+item3 = 30
+item4 = 40
+item5 = 5
+mediaAritmetica = (item1 + item2 + item3 + item4 + item5) / 5
+
+exercicio 5
+receitaLiquida = 1000
+custoDosProdutos = 500
+lucroBruto = (receitaLiquida - custoDosProdutos)
+margembruta = (lucroBruto / receitaLiquida) * 100
+
+exercicio 6
+saldoDaConta = 1000
+saldoDaConta = saldoDaConta - 99.90
+saldoDaConta = saldoDaConta + 2500
+saldoDaConta = saldoDaConta - 0.1
+saldoDaConta = saldoDaConta * 0.75
+saldoDaConta = saldoDaConta / 2
+obs: fiz com pontos (.) porém ele trocou sozinho para vírgulas quando mandei pra cá, não soube mudar!
+
+
