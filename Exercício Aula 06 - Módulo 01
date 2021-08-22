@@ -1,0 +1,39 @@
+nome  = Claudio
+altura = 1.65
+peso = 74
+
+imc = peso / (altura * altura)
+classe = ""
+nivel = 0
+
+if (imc < 18.5) {
+  classe = "magro"
+  
+} else if (imc < 25) {
+  classe = "Normal"
+  
+} else if (imc < 30) {
+  classe = "sobrepeso"
+  nivel = 1
+  
+  } else if (imc < 40) {
+  classe = "obeso"
+  nivel = 2
+  
+  } else { 
+  classe = "obeso com gravidade"
+  nivel = 3
+  
+  console.log("Seu IMC é", imc)
+  console.log(nome, "com esse  resultado você está classificado como " , classe)
+  
+  if (nivel > 0) {
+  console.log("Cuidado! Você está acima do peso recomendado pela OMS.")
+  
+  if (nivel == 3) {
+  console.log("É importante procurar um médico para avaliar sua saúde.")
+    }
+}
+
+
+obs: algumas coisas o github traduziu porém funcionou no navegador
