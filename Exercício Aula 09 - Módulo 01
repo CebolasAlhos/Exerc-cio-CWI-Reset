@@ -1,0 +1,37 @@
+1.```
+function imprimir(argumento) {
+    console.log(argumento)
+}
+
+2
+/// função para conferir se os dois nomes são iguais ///
+function mesmoNome(nome1, nome2) {
+    return nome1 == nome2
+}
+/// função para conferir a maioridade ///
+function maiorIdade(idade) {
+    return idade >= 18
+}
+/// função para o calculo dos juros do boleto de 10% ///
+function valorComJuros(valorDoBoleto) {
+    return valorDoBoleto * 1.1
+}
+/// soma da media aritimetica dos numeros apresentados ///
+function mediaAritmetica(numeros) {
+    soma = 0
+
+   ///soma dos itens do array completo ///
+    for (index = 0; index < itens.length; index++) {
+        soma += itens[index]
+    }
+
+   /// divisão pelo numero de itens ///
+    return soma / itens.length
+}
+
+/// calculo da margem bruta x 100, percentual ////
+function margemBruta(receitaLiquidaVendas, custoProdutosVendidos) {
+    lucroBruto = receitaLiquidaVendas - custoProdutosVendidos
+    return (lucroBruto / receitaLiquidaVendas) * 100
+}
+```
