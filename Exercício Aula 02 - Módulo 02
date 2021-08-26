@@ -1,0 +1,10 @@
+class Exercicio01 {
+	public static void main (String [] args){
+	    System.out.println ("Sou aluno do Nível 1 do CWI Reset!");
+	}
+}
+
+
+depois usei javac Exercicio01.java
+java exercicio01
+
