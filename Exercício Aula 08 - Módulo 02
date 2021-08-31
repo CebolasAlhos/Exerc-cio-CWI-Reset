@@ -1,0 +1,77 @@
+import  java.util.Scanner ;
+
+class pimeiroExercicioAula8{
+	
+		public static void main (String [] args) {
+
+	Scanner scan = new Scanner (System.in);
+
+	System.out.println ("Para calcularmos sua média precisamos que você informe a sua primeira nota:");
+		double primeiraNota = scan.nextDouble ();
+
+    System.out.println ("Agora, informe a sua segunda nota:");
+		double segundaNota = scan.nextDouble ();
+
+	System.out.println ("Falta pouco, informe sua terceira nota:");
+		double terceiraNota = scan.nextDouble ();
+
+	System.out.println ("E por último, informe sua quarta nota:");
+		double quartaNota = scan.nextDouble ();
+	
+	double media = (primeiraNota + segundaNota + terceiraNota + quartaNota) / 4;
+		System.out.println ("Sua média ficou" + media);
+
+	if (media == 10) {
+			System.out.println("Aluno aprovado com louvores!");
+		} else if (media >= 7) {
+			System.out.println("Aluno aprovado!");
+		} else {
+			System.out.println("Aluno reprovado!");
+		}
+	}
+
+}
+
+
+import  java.util.Scanner ;
+
+class segundoExercicioAula8{
+	
+		public static void main (String [] args) {
+
+	Scanner scan = new Scanner (System.in);
+
+			System.out.println("Digite um dia da semana de sua preferência: ");
+
+		int diaDaSemana = scan.nextInt();
+
+		switch(diaDaSemana) {
+			case 1: 
+				System.out.println("Domingo"); 
+				break;
+			case 2: 
+				System.out.println("Segunda Feira"); 
+				break;
+			case 3: 
+				System.out.println("Terça Feira"); 
+				break;
+			case 4: 
+				System.out.println("Quarta Feira"); 
+				break;
+			case 5: 
+				System.out.println("Quinta Feira"); 
+				break;
+			case 6: 
+				System.out.println("Sexta Feira"); 
+				break;
+			case 7: 
+				System.out.println("Sábado"); 
+				break;
+			default: 
+				System.out.println("Valor inválido"); 
+				break;
+		}
+
+	}
+
+}
