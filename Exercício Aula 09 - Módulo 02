@@ -1,0 +1,102 @@
+import  java.util.Scanner ;
+
+class primeiroExercicioAula9{
+	
+		public static void main (String [] args) {
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Digite uma nota entre 0 e 10: ");
+
+        boolean notaValida = false;
+        do {
+            double notaDigitada = scan.nextDouble();
+            if (notaDigitada >= 0 && notaDigitada <= 10) {
+                notaValida = true;
+                System.out.println("Nota válida: " + notaDigitada);
+            } else {
+                System.out.println("Me desculpe, mas a nota informada é inválida, por favor digite uma nota entre 0 e 10.");
+            }
+
+        } while (!notaValida);
+
+    }
+
+}
+
+
+
+import java.util.Scanner;
+
+class segundoExercicioAula9{
+
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+
+        System.out.println("Digite o número que dará inicio a nossa contagem: ");
+        int primeiroValor = scan.nextInt();
+
+        // uvMaior significa que o valor final é maior que o valor inicial //
+
+        boolean uvMaior = false;
+        int ultimoValor = 0;
+        do {
+            System.out.println("Agora, digite o número que dará fim a nossa contagem: ");
+            ultimoValor = scan.nextInt();
+            if (ultimoValor > primeiroValor) {
+                uvMaior = true;
+            } else {
+                System.out.println("Ops! infelizmente o primeiro número precisa ser maior que o último número.");
+            }
+        } while (!uvMaior);
+
+        for (int i = primeiroValor; i <= ultimoValor; i++) {
+            System.out.println(i);
+        }
+    }
+
+}
+
+
+
+import java.util.Scanner;
+
+class terceiroExercicioAula9{
+
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+
+        int numeros;
+        int numeroMaior = Integer.MIN_VALUE;
+
+        for (int i = 0; i < 5; i++) {
+            System.out.println("Por favor, digite um número: ");
+            numeros = scan.nextInt();
+
+        if (numeros > numeroMaior) {
+                numeroMaior = numeros;
+            }
+        }
+
+        System.out.println("O número maior foi: " + numeroMaior);
+    }
+
+}
+
+
+
+import java.util.Scanner;
+
+class quartoExercicioAula9{
+
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+
+    System.out.println("Vamos imprimir uma tabuada, por favor diga de qual número você gostaria de consultar a tabuada: ");
+        int numero = scan.nextInt();
+
+        System.out.println("Aqui está a tabuada do " + numero);
+
+        for (int i = 1; i <= 10; i++) {
+            System.out.println(numero + " x " + i + " = " + numero*i);
+        }
+    }
+}
